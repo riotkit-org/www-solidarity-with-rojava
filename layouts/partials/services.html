@@ -1,0 +1,16 @@
+<div id="services">
+    <div id="three-column" class="container">
+    {{ with .Site.Params.services }}
+      <div class="title">
+        <h2>{{ .title }}</h2>
+        <span class="byline">{{ .subtitle | markdownify }}</span>
+      </div>
+      {{ range .item }}
+      <div class="box{{ .weight }} box">
+        <strong class="box-title">{{ .title }}</strong>
+        <p>{{ .description | markdownify }}</p>
+      </div>
+      {{ end }}
+    {{ end }}
+    </div>
+</div>

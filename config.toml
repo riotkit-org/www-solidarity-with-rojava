@@ -1,0 +1,76 @@
+theme = "hugo-assembly"
+baseURL = "https://example.co"
+languageCode = "en-US"
+title = "Solidarni z Rożawą"
+
+# Metadata
+[params]
+  author = "RiotKit"
+  description = "Przeciwko wojnie w Syrii! Solidarni z Rożawą i ludnością cywilną!"
+
+# banner section (from here on is for assembly theme)
+[params.banner]
+  title = "Przeciwko wojnie w Syrii!"
+  byline = "Solidarni z Rożawą i ludnością cywilną!"
+
+[params.actions] # CTAs
+  enable = true
+  register = "CTA Now!"
+
+# Navigation section
+#[params.nav]
+#  home = "Polski"
+#  services = "English"
+
+# Services section
+[params.services]
+  enable = true
+  title = "Czym jest Rojava?"
+  subtitle = "To niezależny, wielokulturowy region w północnej i południowo-wschodniej Syrii oparty na **systemie demokracji bezpośredniej**."
+
+  [[params.services.item]]
+    weight = "A"
+    title = "Demokracja bezpośrednia"
+    description = "W Rożawie decydują ludzie, nie politycy. Powoływane są komitety lokalne dające prawo głosu każdemu obywatelowi, komitety wybierają delegatów, którym przekazują decyzje dalej."
+
+  [[params.services.item]]
+    weight = "B"
+    title = "Kooperatywy"
+    description = "Funkcjonuje dużo kooperatyw, czyli miejsc, w których **pracownicy zarządzają miejscem pracy wspólnie** - wszyscy są szefami"
+
+  [[params.services.item]]
+    weight = "C"
+    title = "Równe prawa"
+    description = "Mężczyźni i kobiety mają takie same prawa - prawa głosu, prawo do edukacji. Zarówno mężczyźni jak i kobiety walczą w Powszechnych Jednostkach Obrony - kobiet jest nieznacznie więcej w jednostkach od mężczyzn."
+
+  [[params.services.item]]
+    weight = "D"
+    title = "Poszanowanie różnorodności"
+    description = "Na terenie Rożawy żyją m.in. Kurdowie, Arabowie, Ormianie, Asyryjczycy, Chaladejczycy. Wyznawane są odłamy Chrześcijaństwa, Islamu, a także innych religii. Szanowane są prawa mniejszości."
+
+# Welcome section
+[params.welcome]
+  enable = true
+  title = "Co mogę zrobić?"
+  subtitle = "Rożawa potrzebuje aby media całego świata mówiły o niej, nie tylko w kotekście wojny, ale także i w kontekście demokracji bezpośredniej i rewolucji społecznej"
+  description = "<ul class=\"what-can-i-do\"><li>Napisz artykuł do gazety</li><li>Stwórz grafiki informacyjne i opublikuj na portalach społecznościowych</li><li>Zoorganizuj pikietę informacyjną pod konsulatem lub ambasadą Turcji lub Rosji w sprawie zaprzestania ingerencji w Syrię</li></ul>"
+
+# Contact section
+[params.contact]
+  enable = false
+#   title = "Get In Touch"
+#   message = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+#   name_placeholder = "Your name"
+#   email_placeholder = "Your email"
+#   email_disclaimer = "We'll never share your email with anyone else."
+#   message_placeholder = "Please enter a message."
+#   button_text = "Submit"
+
+# Footer section
+[params.footer]
+  enable = true
+  copy = "Copyleft by RiotKit. Spread it everywhere. Let the knowledge be the cure."
+  twitter = ""
+  facebook = ""
+  instagram = ""
+

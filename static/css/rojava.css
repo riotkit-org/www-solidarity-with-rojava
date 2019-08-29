@@ -1,0 +1,52 @@
+#welcome {
+    background: #5ba002;
+}
+
+.button {
+    background: #5ba002;
+}
+
+body {
+    background: #d2d400;
+    color: black;
+}
+
+#copyright p {
+    color: black;
+}
+
+#banner, .title .byline {
+    color: white;
+}
+
+#header-wrapper {
+    height: 600px;
+}
+
+.title h2 {
+    padding-bottom: 50px;
+}
+
+.boxD {
+    width: 384px;
+}
+
+.box-title {
+    padding-bottom: 20px;
+}
+
+.box p {
+    margin: 23px;
+}
+
+.box {
+    margin-top: 20px;
+}
+
+.what-can-i-do li:before {
+    content: "\2605";
+}
+
+.what-can-i-do li {
+
+}
