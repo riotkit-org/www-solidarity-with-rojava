@@ -25,18 +25,18 @@ title = "Solidarni z Rożawą"
 # Services section
 [params.services]
   enable = true
-  title = "Czym jest Rojava?"
+  title = "Czym jest Rożawa?"
   subtitle = "To niezależny, wielokulturowy region w północnej i południowo-wschodniej Syrii oparty na **systemie demokracji bezpośredniej**."
 
   [[params.services.item]]
     weight = "A"
     title = "Demokracja bezpośrednia"
-    description = "W Rożawie decydują ludzie, nie politycy. Powoływane są komitety lokalne dające prawo głosu każdemu obywatelowi, komitety wybierają delegatów, którym przekazują decyzje dalej."
+    description = "W Rożawie ludzie decydują wspólnie. Powoływane są komitety lokalne dające prawo głosu każdemu obywatelowi, komitety wybierają delegatów, którym przekazują decyzje dalej, organizowane są referenda."
 
   [[params.services.item]]
     weight = "B"
     title = "Kooperatywy"
-    description = "Funkcjonuje dużo kooperatyw, czyli miejsc, w których **pracownicy zarządzają miejscem pracy wspólnie** - wszyscy są szefami"
+    description = "Funkcjonuje sporo kooperatyw, czyli miejsc, w których **pracownicy zarządzają miejscem pracy wspólnie** - wszyscy są szefami. <br><small><a href=\"https://mesopotamia.coop/\" target=\"blank\">Zobacz listę części z nich.</a></small>"
 
   [[params.services.item]]
     weight = "C"
@@ -48,12 +48,13 @@ title = "Solidarni z Rożawą"
     title = "Poszanowanie różnorodności"
     description = "Na terenie Rożawy żyją m.in. Kurdowie, Arabowie, Ormianie, Asyryjczycy, Chaladejczycy. Wyznawane są odłamy Chrześcijaństwa, Islamu, a także innych religii. Szanowane są prawa mniejszości."
 
+
 # Welcome section
 [params.welcome]
   enable = true
   title = "Co mogę zrobić?"
   subtitle = "Rożawa potrzebuje aby media całego świata mówiły o niej, nie tylko w kotekście wojny, ale także i w kontekście demokracji bezpośredniej i rewolucji społecznej"
-  description = "<ul class=\"what-can-i-do\"><li>Napisz artykuł do gazety</li><li>Stwórz grafiki informacyjne i opublikuj na portalach społecznościowych</li><li>Zoorganizuj pikietę informacyjną pod konsulatem lub ambasadą Turcji lub Rosji w sprawie zaprzestania ingerencji w Syrię</li></ul>"
+  description = "<ul class=\"what-can-i-do\"><li>&nbsp;Napisz artykuł do gazety</li><li>&nbsp;Stwórz grafiki informacyjne i opublikuj na portalach społecznościowych</li><li>&nbsp;Zoorganizuj pikietę informacyjną pod konsulatem lub ambasadą Turcji, lub Rosji w sprawie zaprzestania ingerencji w Syrię</li><li>&nbsp;Porozmawiaj o tym z rodziną i ze znajomymi</li><li>&nbsp;Udostępnij tę stronę na portalach społęcznościowych</li></ul>"
 
 # Contact section
 [params.contact]

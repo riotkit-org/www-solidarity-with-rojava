@@ -20,7 +20,7 @@ body {
 }
 
 #header-wrapper {
-    height: 600px;
+    height: 430px;
 }
 
 .title h2 {
@@ -29,6 +29,7 @@ body {
 
 .boxD {
     width: 384px;
+    margin-top: 310px !important;
 }
 
 .box-title {
@@ -44,9 +45,37 @@ body {
 }
 
 .what-can-i-do li:before {
-    content: "\2605";
+    content: "\2605 ";
+}
+
+.what-can-i-do li:after {
+    content: " \2605";
 }
 
 .what-can-i-do li {
+    font-size: 18px;
+    padding: 6px;
+}
 
+#situationInSyria {
+    margin: 50px;
+}
+
+.situation-in-syria .title {
+    text-align: center;
+    font-size: 2.7em;
+    font-weight: bold;
+    color: rgba(0,0,0,0.8);
+}
+
+.situation-in-syria-turkey-actions-list li {
+    margin-top: 20px;
+}
+
+#conflictBackground {
+    display: none;
+}
+
+.situation-in-syria-text {
+    font-size: 20px;
 }

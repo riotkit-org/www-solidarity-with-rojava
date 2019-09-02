@@ -5,9 +5,10 @@
         <h2>{{ .title }}</h2>
         <span class="byline">{{ .subtitle | markdownify }}</span>
       </div>
+
       {{ range .item }}
       <div class="box{{ .weight }} box">
-        <strong class="box-title">{{ .title }}</strong>
+        <h2 class="box-title">{{ .title }}</h2>
         <p>{{ .description | markdownify }}</p>
       </div>
       {{ end }}
