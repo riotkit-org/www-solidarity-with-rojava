@@ -16,11 +16,11 @@ title = "Solidarni z Rożawą"
 [params.services]
   enable = true
   title = "Czym jest Rożawa?"
-  subtitle = "To niezależny, wielokulturowy region w północnej i południowo-wschodniej Syrii oparty na **systemie demokracji bezpośredniej**."
+  subtitle = "To niezależny, wielokulturowy region w północnej i południowo-wschodniej Syrii oparty na **systemie demokracji bezpośredniej i demokracji uczestniczącej**."
 
   [[params.services.item]]
     weight = "A"
-    title = "Demokracja bezpośrednia"
+    title = "Demokracja"
     description = "W Rożawie ludzie decydują wspólnie. Powoływane są komitety lokalne dające prawo głosu każdemu obywatelowi, komitety wybierają delegatów, którym przekazują decyzje dalej, organizowane są referenda.<br><small><a href=\"https://pl.wikipedia.org/wiki/Demokratyczny_konfederalizm\" target==\"blank\">Czytaj więcej</a></small>"
 
   [[params.services.item]]
