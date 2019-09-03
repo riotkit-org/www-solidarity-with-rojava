@@ -1,36 +1,33 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]>      <html class="no-js"> <![endif]-->
-<html>
-  <head>
-    {{ partial "head.html" . }}
+<html lang="en">
 
-  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-  </head>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <title>{{ .Site.Title }}</title>
+{{ with .Site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
+{{ with .Site.Params.description }}<meta name="description" content="{{ . }}">{{ end }}
+{{ with .Site.LanguageCode }}<meta http-equiv="content-language" content="{{ . }}" />{{ end }}
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/rojava.css" rel="stylesheet">
 </head>
-<body>
-<div id="header-wrapper">
-	{{ partial "header.html" . }}
 
-	{{ partial "banner.html" . }}
-</div>
-<div class="situation-in-syria">
-	{{ partial "situation-in-syria.html" . }}
-</div>
-<div id="wrapper">
-	{{ if .Site.Params.services.enable }}
-	{{ partial "services.html" . }}
-	{{ end }}
-</div>
-<div id="welcome">
-	{{ if .Site.Params.welcome.enable }}
-	{{ partial "hero.html" . }}
-	{{ end }}
-</div>
-	{{ if .Site.Params.footer.enable }}
-	{{ partial "footer.html" .}}
-	{{ end }}
+<body>
+  {{ partial "header.html" . }}
+  {{ partial "welcome.html" . }}
+  {{ partial "about-rojava.html" . }}
+  {{ partial "take-action.html" . }}
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
 </body>
+
 </html>

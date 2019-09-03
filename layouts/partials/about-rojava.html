@@ -1,0 +1,29 @@
+{{ with .Site.Params.services }}
+<section class="content-section about-rojava">
+    <div class="container text-center">
+        <div class="row">
+            <div class="col-lg-12 mx-auto" style="text-align: justify;">
+                <div class="title">
+                    <h2>{{ .title }}</h2>
+                    <span class="byline">{{ .subtitle | markdownify }}</span>
+                </div>
+
+                <div class="row">
+                    {{ range .item }}
+                    <div class="col-lg-6 col-md-4 col-sm-6 portfolio-item">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <h4 class="card-title">
+                                    <strong>{{ .title }}</strong>
+                                </h4>
+                                <p class="card-text">{{ .description | markdownify }}</p>
+                            </div>
+                        </div>
+                    </div>
+                    {{ end }}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{{ end }}

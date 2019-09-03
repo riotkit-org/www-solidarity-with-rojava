@@ -1,6 +1,5 @@
-theme = "hugo-assembly"
-baseURL = "https://example.co"
-languageCode = "en-US"
+baseURL = "https://rozawa.tk"
+languageCode = "pl-PL"
 title = "Solidarni z Rożawą"
 
 # Metadata
@@ -13,15 +12,6 @@ title = "Solidarni z Rożawą"
   title = "Przeciwko wojnie w Syrii!"
   byline = "Solidarni z Rożawą i ludnością cywilną!"
 
-[params.actions] # CTAs
-  enable = true
-  register = "CTA Now!"
-
-# Navigation section
-#[params.nav]
-#  home = "Polski"
-#  services = "English"
-
 # Services section
 [params.services]
   enable = true
@@ -31,7 +21,7 @@ title = "Solidarni z Rożawą"
   [[params.services.item]]
     weight = "A"
     title = "Demokracja bezpośrednia"
-    description = "W Rożawie ludzie decydują wspólnie. Powoływane są komitety lokalne dające prawo głosu każdemu obywatelowi, komitety wybierają delegatów, którym przekazują decyzje dalej, organizowane są referenda."
+    description = "W Rożawie ludzie decydują wspólnie. Powoływane są komitety lokalne dające prawo głosu każdemu obywatelowi, komitety wybierają delegatów, którym przekazują decyzje dalej, organizowane są referenda.<br><small><a href=\"https://pl.wikipedia.org/wiki/Demokratyczny_konfederalizm\" target==\"blank\">Czytaj więcej</a></small>"
 
   [[params.services.item]]
     weight = "B"
@@ -55,23 +45,4 @@ title = "Solidarni z Rożawą"
   title = "Co mogę zrobić?"
   subtitle = "Rożawa potrzebuje aby media całego świata mówiły o niej, nie tylko w kotekście wojny, ale także i w kontekście demokracji bezpośredniej i rewolucji społecznej"
   description = "<ul class=\"what-can-i-do\"><li>&nbsp;Napisz artykuł do gazety</li><li>&nbsp;Stwórz grafiki informacyjne i opublikuj na portalach społecznościowych</li><li>&nbsp;Zoorganizuj pikietę informacyjną pod konsulatem lub ambasadą Turcji, lub Rosji w sprawie zaprzestania ingerencji w Syrię</li><li>&nbsp;Porozmawiaj o tym z rodziną i ze znajomymi</li><li>&nbsp;Udostępnij tę stronę na portalach społęcznościowych</li></ul>"
-
-# Contact section
-[params.contact]
-  enable = false
-#   title = "Get In Touch"
-#   message = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
-#   name_placeholder = "Your name"
-#   email_placeholder = "Your email"
-#   email_disclaimer = "We'll never share your email with anyone else."
-#   message_placeholder = "Please enter a message."
-#   button_text = "Submit"
-
-# Footer section
-[params.footer]
-  enable = true
-  copy = "Copyleft by RiotKit. Spread it everywhere. Let the knowledge be the cure."
-  twitter = ""
-  facebook = ""
-  instagram = ""
 

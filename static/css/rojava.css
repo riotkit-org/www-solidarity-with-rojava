@@ -1,47 +1,70 @@
-#welcome {
-    background: #5ba002;
-}
-
-.button {
-    background: #5ba002;
+/*!
+ * Start Bootstrap - Modern Business (https://startbootstrap.com/template-overviews/modern-business)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
+ */
+.carousel-item {
+  height: 65vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 body {
-    background: #d2d400;
-    color: black;
+    font-family: "Didact Gothic", sans-serif;
+    font-color: rgba(0, 0, 0, 0.6);
 }
 
-#copyright p {
-    color: black;
+.portfolio-item {
+  margin-bottom: 30px;
 }
 
-#banner, .title .byline {
+.welcome-tile-text, .welcome-tile-text h1, .welcome-tile-text h2, .welcome-tile-text a {
+    z-index: 9999 !important;
     color: white;
+    font-weight: bold;
+    font-size: 50px
 }
 
-#header-wrapper {
-    height: 430px;
+.title-overlay {
+    background: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    height: 100%;
+    z-index: 999;
 }
 
-.title h2 {
-    padding-bottom: 50px;
+section.content-section {
+    padding-top: 70px;
+    padding-bottom: 70px;
 }
 
-.boxD {
-    width: 384px;
-    margin-top: 310px !important;
+section.welcome {
+    background-color: #feff84;
 }
 
-.box-title {
-    padding-bottom: 20px;
+section.about-rojava {
+    background-color: white;
 }
 
-.box p {
-    margin: 23px;
+section.take-action {
+    background-color: #5ba002;
 }
 
-.box {
-    margin-top: 20px;
+.bg-footer {
+    background-color: #d2d400;
+    color: black;
 }
 
 .what-can-i-do li:before {
@@ -57,25 +80,28 @@ body {
     padding: 6px;
 }
 
-#situationInSyria {
-    margin: 50px;
-}
-
-.situation-in-syria .title {
-    text-align: center;
-    font-size: 2.7em;
-    font-weight: bold;
-    color: rgba(0,0,0,0.8);
-}
-
-.situation-in-syria-turkey-actions-list li {
-    margin-top: 20px;
+li {
+   list-style-type: none;
 }
 
 #conflictBackground {
     display: none;
 }
 
-.situation-in-syria-text {
-    font-size: 20px;
+.title {
+    margin-bottom: 45px;
+}
+
+.title h2 {
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.rojava-img {
+    margin: 0 auto;
+}
+
+.riotkit {
+    margin-top: 100px;
+    text-align: center;
 }
